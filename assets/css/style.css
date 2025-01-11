@@ -21,6 +21,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: default;
 }
 
 html {
@@ -104,7 +105,7 @@ body {
   color: var(--Dark-grayish-blue);
 }
 
-.bnt-add-cart {
+.btn-add-cart {
   margin: 0 auto;
   border: none;
   color: var(--White);
@@ -119,7 +120,11 @@ body {
   transition: all 150ms ease-in-out;
 }
 
-.bnt-add-cart:hover {
+.btn-add-cart img{
+  cursor: pointer;
+}
+
+.btn-add-cart:hover {
   background-color: var(--Dark-cyan-active);
 }
 
@@ -132,12 +137,13 @@ body {
 .attribution a {
   text-decoration: none;
   color: var(--Dark-grayish-blue);
+  cursor: pointer;
   transition: all 150ms ease-in-out;
 }
 
 .attribution a:hover {
   color: var(--Dark-cyan-active);
-  font-weight: bold;
+  font-weight: 500;
 }
 
 @media (max-width:600px) {

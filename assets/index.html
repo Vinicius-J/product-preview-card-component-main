@@ -1,29 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Frontend Mentor | Product preview card component</title>
-</head>
-<body>
-
-  Perfume
-
-  Gabrielle Essence Eau De Parfum
-
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
-
-  $149.99
-  $169.99
-
-  Add to Cart
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
-    Coded by <a href="#">Vinícius Joaquim</a>.
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content-img"></div>
+      <div class="content-text">
+        <h1>PERFUME</h1>
+        <div class="main-text">
+          <h2>Gabrielle Essence Eau De Parfum</h2>
+          <p>
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+        </div>
+        <div class="content-buy">
+          <div class="values">
+            <p id="promo-value">$149.99</p>
+            <span id="main-value">$169.99</span>
+          </div>
+          <button class="bnt-add-cart" type="submit">
+            <img src="./images/icon-cart.svg" alt="Cart" />Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      <p>
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/Vinicius-J" target="_blank" rel="noopener"
+          >Vinícius Joaquim</a
+        >.
+      </p>
+    </div>
+  </body>
 </html>

@@ -5,7 +5,7 @@
 
   <!-- MODELO PROJETO FINALIZADO -->
 <h1 align="center"> 
-	  🚀✅ 09_product-preview-card-component-main - Concluído ✅🚀
+	  🚀✅ product-preview-card-component-main - Concluído ✅🚀
 </h1>
 
 <!-- ---------------------------------------------------------------------- -->
